@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #01c8f5;
+}
+.key_board{
+    height: 600px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 150px;
+    border-radius: 17px;
+    box-shadow: 10px 10px 10px;
+}
+.keys{
+    height: 70px;
+    width: 120px;
+    background-color: white;
+    border: 2px black solid;
+    box-shadow: 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+}
+#start_div{
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 1.7em;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px;
+}
+.header{
+    height: 70px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.score_div{
+    margin-top: 200px;
+    height: 100%;
+    width: 30%;
+    background-color: greenyellow;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px;
+    font-size:1.2em;
+}
+button:active{
+    transform: scale(0.95);
+    background-color: green;
+}
